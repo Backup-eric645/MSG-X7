@@ -3,6 +3,25 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Python compiled files may have been moved
+*.pyc
+*.pyo
+
+# Windows remote desktop files should not get in here
+*.rdp
+
+# Test files
+*test*.py
+
+# Locks
+*.Locker/
+Locker.*/
+*Lockers/
+*.lockcache
+*.locx
+*.lock
+*.loc
+
 # C extensions
 *.so
 
@@ -102,3 +121,33 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# EasyPython
+.easy/
+.easypython/
+.easypy/
+*.easypy
+*.ezpy
+*.ezpy.cache
+.ezpython/
+.ezpy/
+compiler.ezx
+
+# MS Office
+*.docx
+*.doc
+*.ppsx
+*.xl
+*.xlsx
+*.xlsm
+*.pub
+*.xls
+*.pptx
+*.pps
+*.ppt
+*.accdb
+*.office.cache
+
+# Email files
+*.eml
+*.email
